@@ -23,8 +23,11 @@ $bold: 700;
 $ex-bold: 800;
 
 /* COLORS */
+$dk-blue: #0A5B86;
 $med-blue: #0A5B86;
 $lt-blue: #A2CAF0;
+$orange: #C17000;
+$brown: #8B5100;
 
 
 
@@ -46,6 +49,11 @@ strong, b {
 
 h1, h2 {
   text-transform: uppercase;
+}
+
+/* HEADER */
+.fusion-header {
+  border-bottom: $dk-blue 4px solid;
 }
 
 /* MENU */
@@ -71,6 +79,20 @@ h1, h2 {
       h2 {
         color: $lt-blue;
       }
+      .fusion-button.btn-homepage {
+        background-color: #fff;
+        .fusion-button-text {
+          color: $orange;
+          font-size: 1.6em;
+          font-family: $soleil;
+          font-weight: $bold;
+        }
+      }
+      .btn-homepage:hover {
+        .fusion-button-text {
+          color: $brown;
+        }
+      }
     }
   }
 }
@@ -85,4 +107,8 @@ h1, h2 {
       letter-spacing: -0.03em;
     }
   }
+}
+.content-margin {
+  margin-left: 18.2rem;
+  margin-right: 19.2rem;
 }
