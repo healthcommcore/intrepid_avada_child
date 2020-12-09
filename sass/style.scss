@@ -1,0 +1,88 @@
+/*!
+Theme Name:     Intrepid Avada Child
+Description:    Child theme for Avada theme
+Author:         Health Communication Core
+Author URI:     http://www.healthcommcore.org
+Template:       Avada
+Version:        1.0
+Text Domain:    Avada
+*/
+
+/* FONTS */
+$freight: "freight-sans-pro";
+$good: "ff-good-web-pro";
+$sweet: "sweet-sans-pro";
+$soleil: "soleil";
+
+$body-size: 1.4rem;
+$lt: 300;
+$reg: 400;
+$news: 500;
+$med: 600;
+$bold: 700;
+$ex-bold: 800;
+
+/* COLORS */
+$med-blue: #0A5B86;
+$lt-blue: #A2CAF0;
+
+
+
+/* GLOBAL */
+html {
+  font-size: 100% !important;
+}
+
+body {
+  line-height: calc(1.4 * #{$body-size}) !important;
+  font-size: $body-size !important;
+  font-weight: $reg !important;
+}
+
+strong, b {
+  font-style: normal;
+  font-weight: $bold;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/* MENU */
+.fusion-main-menu > ul > li > a {
+  text-transform: uppercase;
+  font-weight: $med !important;
+}
+
+/* HOMEPAGE */
+.tfs-slider {
+  .slide-content-container {
+    .slide-content {
+      padding: 2.0rem;
+      background-color: $med-blue;
+      margin-right: 0;
+      h1 {
+        font-family: $soleil;
+        font-weight: $med;
+        font-size: 1.9em !important;
+        line-height: 120% !important;
+        text-transform: none;
+      }
+      h2 {
+        color: $lt-blue;
+      }
+    }
+  }
+}
+
+
+/* PAGES */
+.fusion-page-title-bar {
+  .fusion-page-title-wrapper {
+    align-items: flex-end;
+    h1.entry-title {
+      font-weight: $bold;
+      letter-spacing: -0.03em;
+    }
+  }
+}
