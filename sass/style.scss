@@ -64,6 +64,10 @@ h1, h2 {
   ul, ol {
     margin-top: -1.4rem;
   }
+  h2 + ul,
+  h2 + ol {
+    margin-top: 0;
+  }
 }
 
 /* HEADER */
