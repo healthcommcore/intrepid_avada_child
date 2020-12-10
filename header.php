@@ -64,6 +64,7 @@ $wrapper_class .= ( is_page_template( 'blank.php' ) ) ? ' wrapper_blank' : '';
 		<?php else : ?>
     <?php $id = get_post_thumbnail_id($post); ?>
     <?php $bkgrd_img = wp_get_attachment_url($id); ?>
+      <!-- Remove title if homepage -->
       <?php if (!is_front_page()) : ?>
         <div class="fusion-page-title-bar">
           <div class="content-margin">
