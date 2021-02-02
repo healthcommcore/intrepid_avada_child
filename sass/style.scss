@@ -223,3 +223,103 @@ h1, h2 {
     }
   }
 }
+
+@media (max-width: 1300px) {
+  .fusion-logo {
+    width: 315px;
+  }
+  .fusion-page-title-bar .fusion-page-title-row h1 {
+    font-size: 1.5em;
+  }
+  .tfs-slider .slide-content-container {
+    .slide-content {
+      max-width: 530px !important;
+      padding: 1.9rem 2.4rem 2.2rem 2.4rem;
+      h1 {
+        font-size: 1.6em !important;
+      }
+      .tfs-button-1 {
+        margin-top: 1.0em;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .fusion-main-menu > ul > li > a {
+    font-size: 13px;
+    letter-spacing: 0.02em;
+  }
+  .avada-responsive:not(.rtl) .fusion-header-v1 .fusion-main-menu > ul > li {
+    padding-right: 25px;
+  }
+  .fusion-page-title-bar {
+    height: 114px;
+    .landing-page-title-bar {
+      background-size: 278px 114px;
+    }
+  }
+  .content-margin {
+    margin-left: 12.2rem;
+    margin-right: 13.2rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .fusion-page-title-wrapper {
+    display: block;
+  }
+  .fusion-mobile-menu-design-classic.fusion-header-v1 .fusion-logo {
+    margin: 0 auto !important;
+  }
+  .fusion-page-title-bar {
+    .landing-page-title-bar {
+      background: none !important;
+    }
+  }
+  .fusion-body:not(.avada-has-page-title-mobile-height-auto) { 
+    .fusion-page-title-bar:not(.fusion-tb-page-title-bar) {
+      min-height: auto;
+    }
+    .fusion-page-title-row {
+      display: block;
+      min-height: auto;
+    }
+  }
+  .fusion-page-title-bar {
+    .landing-page-title-bar {
+      .fusion-page-title-wrapper {
+        h1.entry-title {
+          display: inline;
+        }
+      }
+    }
+  }
+  #main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .content-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1023px) {
+/*
+  #main {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .content-margin {
+    margin-left: 7.2rem;
+    margin-right: 8.2rem;
+  }
+*/
+}
+
+
+@media (max-width: 900px) {
+
+}
+
